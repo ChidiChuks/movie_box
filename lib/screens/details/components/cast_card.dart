@@ -24,14 +24,14 @@ class CastCard extends StatelessWidget {
               ),
             ),
           ),
-          SizedBox(height: kDefaultPadding / 2,),
+          SizedBox(height: kDefaultPadding / 2),
           Text(
-            cast['originalName'],
+            cast['orginalName'],
             textAlign: TextAlign.center,
             style: Theme.of(context).textTheme.bodyText2,
             maxLines: 2,
           ),
-          SizedBox(height: kDefaultPadding / 4,),
+          SizedBox(height: kDefaultPadding / 4),
           Text(
             cast['movieName'],
             maxLines: 1,
